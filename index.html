@@ -17,9 +17,8 @@
    </head>
    <body>
       <header>
-         <nav class="navbar navbar-expand-lg bg-dark ">
-            <!--fixed-top-->
-            <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+           <div class="container-fluid">
                <a class="navbar-brand" href="#">
                <img src="assets/img/APLogo.png" alt="" width="15%" height="">
                <img src="assets/img/LogosInti.png" alt="" width="20%" height="">
@@ -36,36 +35,36 @@
                      </i>
                   </li>
                </ul>
-               <!-- Modal -->
-               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h4 class="modal-title" id="exampleModalLabel">Login</h4>
-                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                           <div class="mb-3 row">
-                              <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                              <div class="col-sm-10">
-                                 <input type="text"class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
-                              </div>
-                           </div>
-                           <div class="mb-3 row">
-                              <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                              <div class="col-sm-10">
-                                 <input type="password" class="form-control" id="inputPassword">
-                              </div>
+            </nav>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLabel">Login</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="mb-3 row">
+                           <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                           <div class="col-sm-10">
+                              <input type="text"class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
                            </div>
                         </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                        <div class="mb-3 row">
+                           <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                           <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword">
+                           </div>
                         </div>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Iniciar Sesion</button>
                      </div>
                   </div>
                </div>
             </div>
-         </nav>
+         </div>
       </header>
       <!--Banner con Carrusel-->
       <main>
@@ -100,19 +99,16 @@
             <div class="row">
                <div class="col order-first">
                   <div class="col order-first">
-                     <img src="assets/img/yo2.jpg" class="rounded-circle  w75 " alt="..."title="...">
+                     <img src="assets/img/yo2.jpg" class="rounded-circle  w-120 " alt="..."title="...">
                   </div>
                </div>
             </div>
          </div>
-         <!--<div class="card-img">
-            <img src="assets/img/yo2.jpg" class="rounded-circle  w75" alt="..."title="...">
-            </div>-->
+         <br><br><br><br><br>
       </main>
-      <br><br><br><br><br>
       <!--Seccion Acerca de mi e Informacion Basica-->
       <section  id="acerca-de-mi">
-         <div class="section" id="about">
+         <div class="section  id="about">
             <div class="container">
                <div class="card" data-aos="fade-up" data-aos-offset="10">
                   <div class="row">
@@ -157,7 +153,7 @@
       </section>
       <br>
       <!--Experiencia Laboral-->
-      <section id="experiencia">
+      <section class="experiencia" id="experiencia">
          <div class="section">
          <div class="container experiencia">
          <div class=" text-center mb-4 title">
@@ -405,7 +401,7 @@
          <br>
       </section>
       <!--Porfolio-->
-      <section>
+      <section class="portfolio">
          <h2 class="titulo text-center"><strong>Porfolio</strong></h2>
          <br/>
          <div class="container text-center">
