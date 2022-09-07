@@ -1,0 +1,170 @@
+
+/* ----- ----- HEADER ----- ----- */
+.navbar.navbar-expand-lg.bg-dark{
+    background-color: #14837f  !important;
+}
+/*Items Redes Sociales*/
+.list-group-item {
+    color: #fff;
+}
+.fa-brands.fa-facebook.fa-xl:hover{
+color:#11369b;
+}
+.fa-brands.fa-instagram.fa-xl:hover{
+    color:#e20bc6;
+}
+.fa-brands.fa-linkedin.fa-xl:hover{
+    color:#269fc7;
+}
+ .fa-brands.fa-github.fa-xl:hover{
+    color:#afbda9;
+}
+.fa-solid.fa-user-lock.fa-xl:hover{
+    color:#ffd8be
+}
+/*este es para el Dashboard*/
+.fa-solid.fa-user.fa-xl:hover{
+    color:#ffd8be
+}
+.list-group{
+    --bs-list-group-bg: #transparent;
+}
+.list-group{
+--bs-list-group-border-color: none; 
+}
+/*Boton de LoginFooter */
+.btn-primary{
+    --bs-btn-bg: #262626 ; 
+    --bs-btn-active-bg: #636363;
+    --bs-btn-hover-bg: #636363;
+    --bs-btn-focus-shadow-rgb: #636363;
+    --bs-btn-border-color: #A2A1Bd;
+    --bs-btn-hover-border-color:#636363;
+
+}
+/* ----- ----- MAIN ----- ----- */
+
+/*Cambiar rayitas por circulos en carrusel */
+.carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    outline: black;
+    background-color: #fff;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+     }
+/*Fijar mi foto sobre slider*/
+/*.card-img{
+    position: absolute;
+    width:13%;
+    border-radius:100%;
+    box-shadow:3px 5px 3px  #fff;
+    left:10%;
+    top:450px;
+}*/
+.container img{
+    
+        position: absolute;
+        width:18%;
+        border-radius:100%;
+        left:10%;
+        top:-110px;
+        
+    }
+
+/*Acerca De MI e Info Basica*/
+section .acerca-de-mi {
+    top:550px;
+    border-radius: 0.4rem;
+    --bs-card-border-width: 2px;
+   --bs-card-border-radius: 0.700rem;
+   box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+.title{
+    color:#000;;    
+    font-weight: 700;   
+    font-size: 1.714em;
+    line-height: 1.45em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.row{
+    display: flex;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+   
+}
+/*Experiencia Laboral*/
+.col-md-3 {
+    background-color:#14837f!important;
+    font-family:"Montserrat", "Helvetica Neue" ;
+}
+/*Estudios*/
+aside .estudios{
+    --bs-gutter-x:3.5rem;
+
+}
+
+  /*Skill*/
+.container.container-fluid.container-lg.container-md{
+    --bs-gutter-x:2.5rem;
+}
+.progress-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container{
+   position: relative;
+   background: #FFF;
+}
+.card-body {
+    flex: 1 1 auto; 
+  padding: 3.25rem; 
+}
+.progress-bar{
+   background-color: #14837f !important;
+ }
+ /*grosor lineas de %*/
+ .progress-container .progress-bar{
+    height: 5px;
+}
+.progress{
+ --bs-progress-bg:;
+}
+.card{
+   --bs-card-border-width: 2px;
+   --bs-card-border-radius: 0.700rem;
+   box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+/*MisProyectos*/
+
+.card2{
+   --bs-card-border-width: 2px;
+   --bs-card-border-radius: 0.700rem;
+   box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+/*estilos Botones Porfolio*/
+a.btn.btn-primary{
+    --bs-btn-bg: #14837f !important;
+    --bs-btn-hover-bg:#49C199;
+    --bs-btn-hover-border-color:#49C199;
+    --bs-btn-border-color: #14837f;
+}
+
+/*Pie de Pagina*/
+footer{
+        background-color:#14837f;
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+        font-family: Helvetica, Arial,  sans-serif;
+        top:10px;
+    }

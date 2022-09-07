@@ -1,0 +1,55 @@
+/* ----- ----- HEADER ----- ----- */
+.navbar.navbar-expand-lg.bg-dark{
+    background-color: #14837f  !important;
+}
+/*Items Redes Sociales*/
+.list-group-item {
+    color: #fff;
+}
+.fa-brands.fa-facebook.fa-xl:hover{
+color:#11369b;
+}
+.fa-brands.fa-instagram.fa-xl:hover{
+    color:#e20bc6;
+}
+.fa-brands.fa-linkedin.fa-xl:hover{
+    color:#269fc7;
+}
+ .fa-brands.fa-github.fa-xl:hover{
+    color:#afbda9;
+}
+.fa-solid.fa-user-lock.fa-xl:hover{
+    color:#ffd8be
+}
+/*este es para el Dashboard*/
+.fa-solid.fa-user.fa-xl:hover{
+    color:#ffd8be
+}
+.list-group{
+    --bs-list-group-bg: #transparent;
+}
+.list-group{
+--bs-list-group-border-color: none; 
+}
+/*Boton de LoginFooter */
+.btn-primary{
+    --bs-btn-bg: #262626 ; 
+    --bs-btn-active-bg: #636363;
+    --bs-btn-hover-bg: #636363;
+    --bs-btn-focus-shadow-rgb: #636363;
+    --bs-btn-border-color: #A2A1Bd;
+    --bs-btn-hover-border-color:#636363;
+
+}
+
+
+
+/*Pie de Pagina*/
+footer{
+    background-color:#14837f;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    font-family: Helvetica, Arial,  sans-serif;
+    top:10px;
+}
