@@ -42,6 +42,45 @@ color:#11369b;
 
 }
 
+body{
+    background-color: #385338; !important;
+}
+a {
+    font-size: 1.0rem;
+    text-decoration: none;
+}
+a:hover {
+    background:#14837f;
+    color:#fff;
+}
+a:link{
+    text-decoration:none;
+    color:#14837f;
+}
+a:visited {
+    color:#ccc;
+}
+
+
+/*Galeria */
+.galeria{
+    width:100%;
+   /* margin-left: 5%;*/
+}
+.galeria img{
+    vertical-align: top;
+    width: 25rem;
+    margin: 1.25rem;
+    padding:0.313rem;
+    opacity: 0.5;
+    border: 1px solid #484848;
+}
+.galeria img:hover {
+    border: 1px solid #fff;
+    opacity:1;
+
+}
+
 /*Pie de Pagina*/
 footer{
     background-color:#14837f;
@@ -50,4 +89,5 @@ footer{
     color: #fff;
     font-family: Helvetica, Arial,  sans-serif;
     top:10px;
+    margin-left:auto;
 }
