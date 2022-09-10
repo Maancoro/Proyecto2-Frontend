@@ -6,22 +6,21 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- CSS only -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+      <!--Fontawesome-->
       <script src="https://kit.fontawesome.com/b946223969.js" crossorigin="anonymous"></script>
       <!--Favicon Mio-->
       <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
       <!--enlace con style-->
       <link rel="stylesheet" type="text/css"href="assets/css/style.css">
       <title> Proyecto CV </title>
-      <!--Favicon Mio-->
-      <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
    </head>
    <body>
       <header>
          <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-           <div class="container-fluid">
+            <div class="container-fluid">
                <a class="navbar-brand" href="#">
-               <img src="assets/img/APLogo.png" alt="" width="15%" height="">
-               <img src="assets/img/LogosInti.png" alt="" width="20%" height="">
+               <img src="assets/img/APLogo.png" alt="" width="10%" height="">
+               <img src="assets/img/LogosInti.png" alt="" width="15%" height="">
                </a>
                <ul class="list-group list-group-horizontal">
                   <li class="list-group-item"><i class="fa-brands fa-github fa-xl"></i></li>
@@ -35,78 +34,84 @@
                      </i>
                   </li>
                </ul>
-            </nav>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-               <div class="modal-dialog">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Login</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                     </div>
-                     <div class="modal-body">
-                        <div class="mb-3 row">
-                           <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                           <div class="col-sm-10">
-                              <input type="text"class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
-                           </div>
-                        </div>
-                        <div class="mb-3 row">
-                           <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                           <div class="col-sm-10">
-                              <input type="password" class="form-control" id="inputPassword">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Iniciar Sesion</button>
-                     </div>
-                  </div>
-               </div>
-            </div>
+         </nav>
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+         <div class="modal-content">
+         <div class="modal-header">
+         <h4 class="modal-title" id="exampleModalLabel">Login</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+         <div class="mb-3 row">
+         <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+         <div class="col-sm-10">
+         <input type="text"class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+         </div>
+         </div>
+         <div class="mb-3 row">
+         <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+         <div class="col-sm-10">
+         <input type="password" class="form-control" id="inputPassword">
+         </div>
+         </div>
+         </div>
+         <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+         </div>
+         </div>
+         </div>
+         </div>
          </div>
       </header>
       <!--Banner con Carrusel-->
       <main>
-         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-               <div class="carousel-item active" data-bs-interval="15000">
-                  <img src="assets/img/fondo1.jpg" class="d-block w-100" alt="...">
+         <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                </div>
-               <div class="carousel-item" data-bs-interval="10000">
-                  <img src="assets/img/fondo2.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="15000">
+                     <img src="assets/img/fondo1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                     <img src="assets/img/fondo2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item"  data-bs-interval="10000">
+                     <img src="assets/img/fondo3.jpg" class="d-block w-100" alt="...">
+                  </div>
                </div>
-               <div class="carousel-item"  data-bs-interval="10000">
-                  <img src="assets/img/fondo3.jpg" class="d-block w-100" alt="...">
-               </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-            </button>
-         </div>
-         <!--Mi Foto Pefil-->
-         <section id="perfil" class="perfil">
-            <div class="container">
-               <div>  
-                  <img src="assets/img/yo2.jpg" class="rounded-circle  w-120 " alt="..."title="...">
-               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Anterior</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Siguiente</span>
+               </button>
             </div>
          </section>
       </main>
-      <br><br><br><br><br>
+      <!--Mi Foto Pefil-->
+      <section class="banner">
+         <div class="container text-arround">
+            <div class="row">
+               <div class="col-3">
+                  <!--Cambiar imagen-->
+                  <img src="assets/img/yo2.jpg" class="rounded-circle w-30" alt="...">
+                  <h4 class="titulo"><b>Ma.Angélica Correa</b></h4>
+                  <h6><b>Full Stack  Developer Junior</b></h6>
+               </div>
+            </div>
+         </div>
+      </section>
       <!--Seccion Acerca de mi e Informacion Basica-->
       <section  id="acerca-de-mi">
-         <div class="section"  id="about">
+         <div class="section"  id="acerca-de-mi">
             <div class="container">
                <div class="card" data-aos="fade-up" data-aos-offset="10">
                   <div class="row">
@@ -149,7 +154,6 @@
             </div>
          </div>
       </section>
-      <br>
       <!--Experiencia Laboral-->
       <section class="experiencia" id="experiencia">
          <div class="section">
@@ -175,7 +179,6 @@
                </div>
             </div>
          </div>
-         <br>
          <br>
          <div class="card">
             <div class="row">
@@ -216,7 +219,6 @@
             </div>
          </div>
       </section>
-      <br>
       <!--Espacio para mis Estudios-->
       <section id="estudios">
          <div class="section">
@@ -434,7 +436,6 @@
             </div>
          </div>
       </section>
-      <br>
       <!--Ubicacion-->
       <section id="ubicacion">
       </section>

@@ -54,26 +54,26 @@ color:#11369b;
     border-radius: 50%;
     border: 1px solid #fff;
      }
-/*Fijar mi foto sobre slider*/
-/*.card-img{
-    position: absolute;
-    width:13%;
-    border-radius:100%;
-    box-shadow:3px 5px 3px  #fff;
-    left:10%;
-    top:450px;
-}*/
+/*---------Mi Foto De Perfil--------*/
 .container img{
     
         position: absolute;
         width:18%;
         border-radius:100%;
-        left:10%;
+        left:5%;
         top:-110px;
-        
     }
+h4 {
+    font-family: cursive;
+     font-color:#000500 ;
+        margin-top:7rem;
+    margin-left: 3rem;
+} 
+h6{
+    margin-left: 3rem;
+}   
 
-/*Acerca De MI e Info Basica*/
+/*------Acerca De MI e Info Basica-------*/
 section .acerca-de-mi {
    padding-top:550px;
    border-radius: 0.4rem;
@@ -95,7 +95,6 @@ section .acerca-de-mi {
    flex-wrap: wrap;
    margin-right: -15px;
    margin-left: -15px;
-   
 }
 /*Experiencia Laboral*/
 .col-md-3 {
@@ -141,7 +140,7 @@ aside .estudios{
 .card{
    --bs-card-border-width: 2px;
    --bs-card-border-radius: 0.700rem;
-   box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+     box-shadow: 0px 0px 15px rgba(0,0,0,.35);
 }
 /*MisProyectos*/
 

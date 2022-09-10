@@ -43,7 +43,7 @@ color:#11369b;
 }
 
 body{
-    background-color: #385338; !important;
+    background-color: #000; !important;
 }
 a {
     font-size: 1.0rem;
@@ -91,3 +91,5 @@ footer{
     top:10px;
     margin-left:auto;
 }
+
+/*#C3D3C6  /#8BB4C7*/
