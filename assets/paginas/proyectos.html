@@ -9,91 +9,243 @@
       <script src="https://kit.fontawesome.com/b946223969.js" crossorigin="anonymous"></script>
       <!--Favicon Mio-->
       <link rel="shortcut icon" type="image/x-icon" href="../paginas/imagenes/favicon.ico">
-      <link rel="stylesheet" type="text/css"href="../paginas/css/proyectos.css">
-      <title>Mis Proyectos</title>
+      <link rel="stylesheet" type="text/css"href="css/style.css">
+      <link rel="stylesheet" type="text/css"href="css/normalize.css">
+      <title>Trabajos</title>
    </head>
    <body>
-    <header>
-         <nav class="navbar navbar-expand-lg bg-dark  "><!--fixed-top-->
-            <div class="container-fluid">
-               <a class="navbar-brand" href="#">
-               <img src="../paginas/imagenes/APLogo.png" alt="" width="15%" height="">
-               <img src="../paginas/imagenes/LogosInti.png" alt="" width="20%" height="">
-               </a>
-               <ul class="list-group list-group-horizontal">
-                  <li class="list-group-item"><i class="fa-brands fa-github fa-xl"></i></li>
-                  <li class="list-group-item"><i class="fa-brands fa-linkedin fa-xl"></i></li>
-                  <li class="list-group-item"><i class="fa-brands fa-instagram fa-xl"></i></li>
-                  </i>
-                  <li class="list-group-item"><i class="fa-brands fa-facebook fa-xl"></i></li>
-                  <!-- Button trigger modal -->
-                  <li class="list-group-item">
-                     <i class="fa-solid fa-user-lock fa-xl" type="button"data-bs-toggle="modal"data-bs-target="#exampleModal" >
-                     </i>
-                  </li>
-               </ul>
+      <header>
+         <div class="contenedor" fixed top>
+            <a class="navbar-brand" href="#" >
+               <img src="img/APLogo.png" alt="" width="10%" height="">
+               <img src="img/LogosInti.png" alt="" width="15%" height="">
+            </a>
+           <nav class="menu">
+               <a href="../../index.html">Inicio</a>
+               <a href="#trabajos" id="btn-trabajo">Trabajos</a>
+               <a href="#contacto" id="btn-contacto">Contacto</a>
+               <a href="cursos.html">Cursos</a>
             </nav>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-               <div class="modal-dialog">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Login</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+         </div>
+      </header>
+      <!--Main-->
+      <section class="main">
+         <section class="mis-trabajos">
+            <div class="contenedor">
+               <div class="texto">
+                  <h3 class="titulo">Mis Trabajos</h3>
+                  <p>Hola mi nombre es  <span class="bold">Ma.Angélica Correa</span>. Soy Programadora Full Stack Web Junior, estos son algunos de los trabajos que he realizado. <span class="bold"> &copy; Todos los Derechos Reservados</span> . </p>
+               </div>
+            </div>
+         </section>
+         <section class="trabajos">
+            <div class="contenedor">
+               <h3 class="titulo">Trabajos</h3>
+               <a name="trabajos"></a> <!--ANCLA-->
+
+               <div class="contenedor-trabajos">
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/foto 3.jpg"alt="Alma de Gaucho">
                      </div>
-                     <div class="modal-body">
-                        <div class="mb-3 row">
-                           <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                           <div class="col-sm-10">
-                              <input type="text"class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
-                           </div>
-                        </div>
-                        <div class="mb-3 row">
-                           <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                           <div class="col-sm-10">
-                              <input type="password" class="form-control" id="inputPassword">
-                           </div>
-                        </div>
+                     <div class="descripcion">
+                        <p class="nombre"><a href="https://www.instagram.com/almadegauchos/?igshid=YmMyMTA2M2Y%3D">Alma de Gaucho</a></p>
+                        <p class="categoria">
+                           Productos Regionales Argentinos - Para Adultos y Niños - 
+                           Envios Nacionales e Internacionales
+                        </p>
                      </div>
-                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/3.jpg"alt="Café Literario">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Café Literario</p>
+                        <p class="categoria">
+                           Amar tomar un Café y 
+                           Amar leer un Libro 
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/foto5.jpg"alt="Plaza Virtual">
+                     </div>
+                     
+                     <div class="descripcion">
+                        <p class="nombre"><a href="https://www.instagram.com/artesanosautoconvocados/">Plaza Virtual</a></p>
+                        <p class="categoria">
+                           Feria de Artesanos y Manualistas Autoconvocados - La Plata
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/foto 1.jpg"alt="Alma de Gaucho">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Alma de Gaucho</p>
+                        <p class="categoria">
+                           Productos Regionales Argentinos - Para Adultos y Niños - Envios Nacionales e Internacionales
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/8.jpg"alt="Café Literario">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Café Literario</p>
+                        <p class="categoria">
+                           Amar tomar un Café y 
+                           Amar leer un Libro 
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/foto 4.jpg"alt="PlazaVirtual">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Plaza Virtual</p>
+                        <p class="categoria">
+                           Feria de Artesanos y Manualistas Autoconvocados - La Plata
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/logoAlmaDeGaucho.png"alt="Alma de Gaucho">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Alma de Gaucho</p>
+                        <p class="categoria">
+                           Productos Regionales Argentinos - Para Adultos y Niños - Envios Nacionales e Internacionales
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/7.jpg"alt="Café Literario">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Café Literario</p>
+                        <p class="categoria">
+                           Amar tomar un Café y 
+                           Amar leer un Libro 
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/ceramica.jpg"alt="PlazaVirtual">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Plaza Virtual</p>
+                        <p class="categoria">
+                           Feria de Artesanos y Manualistas Autoconvocados - La Plata
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/12.jpg"alt="Alma de Gaucho">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Alma de Gaucho</p>
+                        <p class="categoria">
+                           Productos Regionales Argentinos - Para Adultos y Niños - Envios Nacionales e Internacionales
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/Cafe2.jpg"alt="Café Literario">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Café Literario</p>
+                        <p class="categoria">
+                           Amar tomar un Café y  
+                           Amar leer un Libro 
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trabajo">
+                     <div class="thumb">
+                        <img src="img/10.jpg"alt="AlmaDeGaucho">
+                     </div>
+                     <div class="descripcion">
+                        <p class="nombre">Alma de Gaucho</p>
+                        <p class="categoria">
+                           Productos Regionales Argentinos - Para Adultos y Niños - Envios Nacionales e Internacionales
+                        </p>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-    </header>
-    
-      <h3><strong>Esta es la pagina de mis Proyectos</strong></h3>
-    <section>
-      <ul>
-        <li><a href="">Mis Proyectos</a></li>
-        <li><a href="../../index.html">Proyecto CV</a></li>
-        <li><a href="../paginas/cursos.html">Cursos</a></li>
-      </ul>
-    </section> 
-    <section>
-         <div class="galeria" text="center">
-           
-            <img src="../paginas/imagenes/Amistad 2.jpg" alt="Alma de Gaucho">
-            <img src="../paginas/imagenes/AlmaDeGaucho2.jpg" alt="Alma de Gaucho">
-            <img src="../paginas/imagenes/AlmaDeGaucho1.jpg" alt="Alma de Gaucho">
-            <img src="../paginas/imagenes/sandalias.jpg" alt="Plaza Virtual">
-            <img src="../paginas/imagenes/Chalecos@catrescielo.jpg" alt="Plaza Virtual">
-            <img src="../paginas/imagenes/Ceramica.jpg" alt="Plaza Virtual">
-            <img src="../paginas/imagenes/Cafe2.jpg" alt="Café Literario">
-            <img src="../paginas/imagenes/Cafe 4.jpg" alt="Café Literario">
-            <img src="../paginas/imagenes/Cafe 2.jpg" alt="Café Literario">
-      </di>
-    </section>
-    <footer>
-         <div class="contenedor ">
-            <div class="copyright">
-               <p >&#169; 2022 Portfolio - Angélica Correa</p>
+         </section>
+      </section>
+      <!--Footer-->
+
+      <footer>
+         <section class="contacto">
+            <div class="contenedor">
+               <h3 class="titulo">Contacto</h3>
+               <a name="contacto"></a>       <!--ANCLA-->
+               <!--Formulario de contacto-->
+               <form class="formulario" action="">
+                  <input type="text"placeholder="Nombre" name="nombre" required>
+                  <input type="email"placeholder="Correo" name="correo" required>
+                  <textarea name="mensaje" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                  <input class="boton" type="submit" value="Enviar">
+               </form>
+            </div>
+         </section>
+         <section class="redes-sociales">
+            <div class="contenedor">
+               <a class="facebook" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+               <a class="instagram" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+               <a class="linkedin" href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+               <a class="github" href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+               <a class="twitter" href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+               <!-- Button trigger modal -->
+               <a class="user-look" href="#"> <i class="fa-solid fa-user-lock fa-xxl" type="button"data-bs-toggle="modal"data-bs-target="#exampleModal"></i></a>
+            </div>
+         </section>
+      </footer>
+      <!-- Ventana Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="exampleModalLabel">Login</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div class="mb-3 row">
+                     <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                     <div class="col-sm-10">
+                        <input type="text"class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+                     </div>
+                  </div>
+                  <div class="mb-3 row">
+                     <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                     <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword">
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+               </div>
             </div>
          </div>
-    </footer>
+      </div>
+      </div>
       <!-- JavaScript Bundle with Popper -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      
    </body>
 </html>

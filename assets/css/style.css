@@ -5,19 +5,23 @@
 }
 /*Items Redes Sociales*/
 .list-group-item {
+    color: #fff !important;
+}
+ul li a {
+    
     color: #fff;
 }
 .fa-brands.fa-facebook.fa-xl:hover{
-color:#11369b;
+color:#1877f2;
 }
 .fa-brands.fa-instagram.fa-xl:hover{
-    color:#e20bc6;
+    color:#e1306c;
 }
 .fa-brands.fa-linkedin.fa-xl:hover{
-    color:#269fc7;
+    color:#0077b5;
 }
  .fa-brands.fa-github.fa-xl:hover{
-    color:#afbda9;
+    color:#6cc644;
 }
 .fa-solid.fa-user-lock.fa-xl:hover{
     color:#ffd8be
@@ -63,15 +67,28 @@ color:#11369b;
         left:5%;
         top:-110px;
     }
-h4 {
-    font-family: cursive;
-     font-color:#000500 ;
-        margin-top:7rem;
-    margin-left: 3rem;
-} 
-h6{
-    margin-left: 3rem;
-}   
+ /*---- ----Menu---- ---- */
+ .menu {         
+   list-style: none;
+   padding: 0;
+   width: 100%;
+   max-width: 1000px;
+   margin: 20px auto;
+   text-align: right;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    color: #000500;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 20px;
+}
+.menu li a:hover {
+    background: #14837f;
+}
 
 /*------Acerca De MI e Info Basica-------*/
 section .acerca-de-mi {
@@ -90,6 +107,9 @@ section .acerca-de-mi {
     margin-top: 40px;
     margin-bottom: 15px;
 }
+section p {
+    line-height:27px;
+} 
 .row{
     display: flex;
    flex-wrap: wrap;
@@ -127,6 +147,9 @@ aside .estudios{
     flex: 1 1 auto; 
   padding: 3.25rem; 
 }
+.card-body: hover{
+     opacity: 0.3 ;
+}
 .progress-bar{
    background-color: #14837f !important;
  }
@@ -144,10 +167,13 @@ aside .estudios{
 }
 /*MisProyectos*/
 
+
 .card2{
    --bs-card-border-width: 2px;
    --bs-card-border-radius: 0.700rem;
    box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+   padding: 1rem;
+   
 }
 
 /*estilos Botones Porfolio*/
@@ -162,8 +188,13 @@ a.btn.btn-primary{
 footer{
         background-color:#14837f;
         text-align: center;
-        padding: 15px 0;
+        padding: 25px 0;
         color: #fff;
         font-family: Helvetica, Arial,  sans-serif;
         top:10px;
+    }
+/*--- --- MEDIAQUERY--- ---*/
+@media screen and  (max-width: 800px){
+    .menu li a {
+        font-size: 14px;
     }
