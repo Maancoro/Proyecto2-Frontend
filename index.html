@@ -15,26 +15,26 @@
       <title> Proyecto CV </title>
    </head>
    <body>
-      
-      <nav class="navbar navbar-expand-lg bg-dark ">  <!--fixed-top-->
-            <div class="container-fluid">
-               <a class="navbar-brand" href="#">
-               <img src="assets/img/APLogo.png" alt="" width="10%" height="">
-               <img src="assets/img/LogosInti.png" alt="" width="15%" height="">
-               </a>
-               <ul class="list-group list-group-horizontal">
-                  <li class="list-group-item"><a href="https://github.com/"target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
-                  <li class="list-group-item"><a href="https://linkedin.com"target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-                  <li class="list-group-item"><a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg bg-dark ">  
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="assets/img/APLogo.png" alt="" width="10%" height="">
+            <img src="assets/img/LogosInti.png" alt="" width="15%" height="">
+            </a>
+            <ul class="list-group list-group-horizontal">
+               <li class="list-group-item"><a href="https://github.com/"target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+               <li class="list-group-item"><a href="https://linkedin.com"target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+               <li class="list-group-item"><a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+               <li class="list-group-item"><a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+               <!-- Button trigger modal -->
+               <!--Boton que abre Login-->
+               <li class="list-group-item">
+                  <i class="fa-solid fa-user-lock fa-xl" type="button"data-bs-toggle="modal"data-bs-target="#exampleModal" >
                   </i>
-                  <li class="list-group-item"><a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
-                  <!-- Button trigger modal -->
-                  <!--Boton que abre Login-->
-                  <li class="list-group-item">
-                     <i class="fa-solid fa-user-lock fa-xl" type="button"data-bs-toggle="modal"data-bs-target="#exampleModal" >
-                     </i>
-                  </li>
-               </ul>
+               </li>
+            </ul>
+         </div>
       </nav>
          <!--El Login -->
          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -64,7 +64,7 @@
          </div>
          </div>
          </div>
-         </div>
+         
       
       <!--Banner con Carrusel-->
       <main>
@@ -439,7 +439,7 @@
                      <div class="card-body">
                         <h5 class="card-title"><b>Trabajos</b></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis euismod egestas. Donec tortor sem, rhoncus in ex vitae, fermentum dapibus ipsum. </p>
-                        <a href="assets/paginas/proyectos.html" target="_blank" class="btn btn-primary">Trabajos</a>
+                        <a href="proyectos.html" target="_blank" class="btn btn-primary">Trabajos</a>
                      </div>
                   </div>
                </div>
@@ -448,7 +448,7 @@
                      <div class="card-body">
                         <h5 class="card-title"><b>Curriculum Vitae</b></h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis euismod egestas. Donec tortor sem, rhoncus in ex vitae, fermentum dapibus ipsum. </p>
-                         <button type="button" class="btn btn-dark"><i class="fa-solid fa-download"></i></button>
+                         <a href="assets/docs/CV .doc"download ><button type="button" class="btn btn-dark"><i class="fa-solid fa-download"></i></button></a>
                        </div>
                   </div>
                </div>
