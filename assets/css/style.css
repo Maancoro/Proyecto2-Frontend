@@ -243,6 +243,13 @@ button#v-pills-home-tab{
     }
     
 }
+@media screen and (max-width:300px){
+    
+   .container img{
+       margin-top: 5rem;
+    }
+    
+}
 @media screen and (max-width:800px){
     
  section.perfil h4{
