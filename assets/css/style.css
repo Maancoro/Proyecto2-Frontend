@@ -221,10 +221,42 @@ button#v-pills-home-tab{
     --bs-btn-active-shadow:#49C199;
     --bs-btn-focus-shadow-rgb: #49C199;
     --bs-btn-ac
-
+}
     
 /*--- --- MEDIAQUERY--- ---*/
 @media screen and  (max-width: 800px){
     .menu li a {
         font-size: 14px;
     }
+/*--- --- MEDIAQUERY--- ---*/
+@media screen and (max-width:800px){
+    
+   .container img{
+       margin-top:5rem;
+    }
+    
+}
+@media screen and (max-width:500px){
+    
+   .container img{
+       margin-top: 5rem;
+    }
+    
+}
+@media screen and (max-width:800px){
+    
+ section.perfil h4{
+     font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    
+ section.perfil h4{
+     font-size: 16px;
+    }
+    
+}
+
+    
