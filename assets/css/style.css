@@ -26,10 +26,12 @@ color:#1877f2;
 .fa-solid.fa-user-lock.fa-xl:hover{
     color:#ffd8be
 }
+
 /*este es para el Dashboard*/
-.fa-solid.fa-user.fa-xl:hover{
+.fa-solid.fa-right-from-bracket.fa-xl:hover{
     color:#ffd8be
 }
+
 .list-group{
     --bs-list-group-bg: #transparent;
 }
