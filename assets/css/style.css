@@ -233,7 +233,12 @@ button#v-pills-home-tab{
     --bs-btn-focus-shadow-rgb: #49C199;
     --bs-btn-ac
 }
-    
+.btn{
+--bs-btn-color:#fff;
+
+}
+   
+
 /*--- --- MEDIAQUERY--- ---*/
 @media screen and  (max-width: 800px){
     .menu li a {
@@ -275,6 +280,16 @@ button#v-pills-home-tab{
      font-size: 16px;
     }
     
+}
+@media screen and (max-width:800px){
+    h3 {
+        font size: 1rem;
+    }
+}
+@media screen and (max-width:500px){
+    h3 {
+        font size: 0.5rem;
+    }
 }
 
     
