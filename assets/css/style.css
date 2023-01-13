@@ -57,6 +57,70 @@ button.btn-login.btn-cerrar{
     --bs-btn-hover-border-color:#49C199;
 
 }
+.modal{
+   background-color: #14837f ; }
+
+btn-dark {
+    --bs-btn-bg:#14837f;
+    --bs-btn-hover-border-color:#49C199;
+    --bs-btn-active-bg:#49C199;
+    --bs-btn-hover-bg:#14837f;
+    --bs-btn-border-color:#14837f;
+    --bs-btn-active-shadow:#49C199;
+    --bs-btn-focus-shadow-rgb: #49C199;
+}
+input {
+  width: 100%;
+  }
+
+.error{
+    color:red
+  }
+.border-success{
+  border-color:#14837f;
+}
+  
+.border-danger{
+    border-color: red;
+  }
+  .border-danger {
+    --bs-border-opacity: 2;
+    border-color: rgba(var(--bs-danger-rgb),var(--bs-border-opacity))!important;
+}
+
+
+.modal{
+   background-color: #14837f ; }
+
+btn-dark {
+    --bs-btn-bg:#14837f;
+    --bs-btn-hover-border-color:#49C199;
+    --bs-btn-active-bg:#49C199;
+    --bs-btn-hover-bg:#14837f;
+    --bs-btn-border-color:#14837f;
+    --bs-btn-active-shadow:#49C199;
+    --bs-btn-focus-shadow-rgb: #49C199;
+}
+input {
+  width: 100%;
+  }
+
+.error{
+    color:red
+  }
+.border-success{
+  border-color:#14837f;
+}
+  
+.border-danger{
+    border-color: red;
+  }
+  .border-danger {
+    --bs-border-opacity: 2;
+    border-color: rgba(var(--bs-danger-rgb),var(--bs-border-opacity))!important;
+}
+
+
 /* ----- ----- MAIN ----- ----- */
 
 /*Cambiar rayitas por circulos en carrusel */
